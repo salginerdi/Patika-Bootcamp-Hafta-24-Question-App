@@ -1,0 +1,111 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #000000,
+    #180911,
+    #23111f,
+    #2a1731,
+    #2b2046,
+    #342250,
+    #3e2359,
+    #492362,
+    #660f55,
+    #7b0040,
+    #850025,
+    #850000
+  );
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+  font-family: "Russo One", sans-serif;
+  width: 100%;
+  height: 30rem;
+}
+svg text {
+  animation: stroke 5s infinite alternate;
+  stroke-width: 3;
+  stroke: #ff2525;
+  font-size: 100px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(204, 11, 11, 0);
+    stroke: rgba(255, 37, 37, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(204, 11, 11, 0);
+    stroke: rgba(255, 37, 37, 1);
+  }
+  80% {
+    fill: rgba(204, 11, 11, 0);
+    stroke: rgba(255, 37, 37, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(204, 11, 11, 1);
+    stroke: rgba(255, 37, 37, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+.wrapper {
+  background-color: none;
+}
+
+h3 {
+  color: bisque;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.list-type {
+  color: azure;
+  list-style-type: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap");
+
+.btn {
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  padding: 20px 45px;
+  border: 2px solid #0066cc;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition: 1000ms;
+  transform: translateY(0);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  transition: 1000ms;
+  padding: 10px 50px;
+  transform: translateY(-0px);
+  background: linear-gradient(90deg, #0066cc 0%, #c500cc 100%);
+  color: #000000;
+  border: solid 2px #0066cc;
+  font-weight: 900;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: center;
+}
