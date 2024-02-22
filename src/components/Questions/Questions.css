@@ -26,6 +26,7 @@
   font-size: 20px;
   cursor: pointer;
   transition: 0.4s ease;
+  color: #21354C;
 }
 
 .content .container ul li:hover {

@@ -62,8 +62,9 @@ svg text {
 h3 {
   color: bisque;
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 800;
+  font-style:normal;
+  letter-spacing:5px;
 }
 
 .list-type {
@@ -108,4 +109,5 @@ h3 {
 .btn-div {
   display: flex;
   justify-content: center;
+  height: 40px; 
 }
