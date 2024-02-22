@@ -21,10 +21,11 @@ Question App, kullanıcılara çeşitli sorular sormak ve cevaplarını kontrol 
 
    ```bash
    git clone https://github.com/yourusername/question-app.git
-
+   ```
+   
 2. Proje dizinine gidin:
 
-  ```bash
+   ```bash
    cd question-app
    ```
   
